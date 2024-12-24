@@ -76,7 +76,7 @@ function library:CreateWindow(name, version, icon)
 
         TitleUnderline.Name = "TitleUnderline"
         TitleUnderline.Parent = TitleBar
-        TitleUnderline.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+        TitleUnderline.BackgroundColor3 = Color3.fromRGB(#0A0A0A)
         TitleUnderline.BorderSizePixel = 0
         TitleUnderline.Position = UDim2.new(0, 0, 1, 0)
         TitleUnderline.Size = UDim2.new(1, 0, 0, 1)
@@ -264,7 +264,7 @@ function library:CreateWindow(name, version, icon)
 
                 Indicator.Name = "Indicator"
                 Indicator.Parent = Tabs
-                Indicator.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+                Indicator.BackgroundColor3 = Color3.fromRGB(#202020)
                 Indicator.BorderSizePixel = 0
                 Indicator.BackgroundTransparency = 1
                 Indicator.Position = UDim2.new(0, -14, 0, 4)
